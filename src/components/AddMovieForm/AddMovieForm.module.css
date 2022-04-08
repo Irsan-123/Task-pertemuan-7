@@ -1,0 +1,112 @@
+.container {
+    margin: 1rem;
+}
+
+.addmovieform {
+    display: flex;
+    height: auto;
+    margin-bottom: 4rem;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.addmovieform__left {
+    margin: 8px;
+    border-style: solid;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.addmovieform__image {
+    max-width: 280px;
+}
+
+.addmovieform__right {
+    margin: 8px;
+    padding: 0.4rem;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.addmovieform__title {
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.addmovieform__formControl {
+    margin: 1rem;
+    padding: 0.4rem;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.addmovieform__label {
+    color: rgb(221, 221, 221);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.addmovieform__selectType {
+    width: 250px;
+    padding-left: 0.4rem;
+    height: 30px;
+}
+
+.addmovieform__input {
+    width: 250px;
+    height: 30px;
+}
+
+.addmovieform__formButton {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.addmovieform__button {
+    text-align: center;
+    margin: 1rem;
+    border-radius: 12px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: #7654ff;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .addmovieform {
+        flex-direction: row;
+    }
+
+    .addmovieform__left {
+        margin: 8px;
+    }
+    
+    .addmovieform__image {
+        max-width: 255px;
+        height: auto;
+        
+    }
+    
+    .addmovieform__right {
+        margin: 8px;
+        max-width: 330px;
+        height: auto;
+    }
+
+    .addmovieform__input {
+        width: 260px;
+    }
+}
